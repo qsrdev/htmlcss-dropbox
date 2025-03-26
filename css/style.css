@@ -1,4 +1,8 @@
 /* RESET  */
+:root {
+  --grey: #808080;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,12 +12,6 @@
 img {
   max-width: 100%;
 }
-
-/* main {
-  max-width: 80%;
-  margin: 0 auto;
-  max-width: 1300px;
-} */
 
 h1 {
   font-size: 90px;
@@ -59,9 +57,7 @@ header {
   align-items: center;
 }
 
-/* COMMON */
-/* LAYOUT */
-
+/* Jumbo */
 .jumbo {
   background-color: aquamarine;
 }
@@ -83,4 +79,62 @@ header {
 .col70 {
   width: 70%;
   background-color: violet;
+}
+
+.body-container {
+  display: flex;
+  max-width: 50%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+/* COMMON */
+/* LAYOUT */
+.business-section {
+  margin-bottom: 20rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-box {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.card {
+  width: 30%;
+  /* debug */
+  border: 1px solid black;
+}
+
+.long-card {
+  width: 100%;
+  margin-top: 35px;
+  /* debug */
+  border: 1px solid black;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.card-list {
+  /* line-height: 2; */
+  list-style: none;
+  font-size: 0.8rem;
+
+  li {
+    margin: 10px 0;
+  }
+}
+
+/* Utility */
+
+.font-grey {
+  color: var(--grey);
 }
