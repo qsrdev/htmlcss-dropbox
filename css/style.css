@@ -179,9 +179,45 @@ header {
 /* ====================================================== */
 
 /* ====================================================== */
+/* IMPORTANT LINKS SECTION */
+.links-section {
+  background-color: black;
+}
+
+.important-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 80px 0 80px;
+}
+
+.important-col {
+  color: white;
+  /* background-color: white; */
+  border: 1px solid green;
+  width: 20%;
+
+  ul {
+    list-style: none;
+    li {
+      margin-top: 15px;
+    }
+  }
+}
+
+/* ====================================================== */
 /* FOOTER */
 footer {
-  height: 420px;
+  height: 80px;
   background-color: black;
 }
 
