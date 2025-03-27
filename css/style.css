@@ -82,6 +82,10 @@ header {
   margin: 0 auto;
   max-width: 900px;
 }
+
+.fa-arrow-down {
+  font-size: 50px;
+}
 /* ====================================================== */
 
 /* COMMON */
@@ -89,6 +93,14 @@ header {
 
 .flex {
   display: flex;
+}
+
+.plan-select {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  padding-bottom: 50px;
+  font-size: 20px;
 }
 
 h1 {
@@ -206,15 +218,14 @@ p {
 /* ====================================================== */
 
 /* ====================================================== */
-/* IMPORTANT LINKS SECTION */
-.links-section {
+/* FOOTER */
+.footer {
+  padding: 0 20px;
   background-color: black;
 }
 
-.important-container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+.footer-container {
+  width: 80%;
   margin: 0 auto;
   max-width: 1300px;
 }
@@ -224,13 +235,13 @@ p {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin: 80px 0 80px;
+  padding: 70px 0 70px;
 }
 
 .important-col {
   color: white;
   /* background-color: white; */
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 20%;
 
   ul {
@@ -242,42 +253,6 @@ p {
 }
 
 /* ====================================================== */
-/* FOOTER */
-.footer {
-  padding: 40px 0 20px;
-  background-color: black;
-}
-
-.footer-container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  margin: 0 auto;
-  max-width: 1300px;
-}
-
-.info-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.footer-col {
-  color: white;
-  /* background-color: white; */
-  border: 1px solid green;
-  width: 20%;
-
-  ul {
-    list-style: none;
-    li {
-      margin-top: 15px;
-    }
-  }
-}
-/* ====================================================== */
-
 /* Utility */
 
 .font-bold {
