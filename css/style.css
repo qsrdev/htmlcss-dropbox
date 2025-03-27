@@ -89,7 +89,6 @@ header {
 
 .flex {
   display: flex;
-  flex-wrap: ;
 }
 
 h1 {
@@ -99,12 +98,6 @@ h1 {
   margin: 0 auto;
   max-width: 1300px;
   padding: 60px 0 20px;
-}
-
-h2 {
-}
-
-h3 {
 }
 
 p {
@@ -207,7 +200,7 @@ p {
   /* padding: 5px; */
   font-size: 1rem;
 
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 /* ====================================================== */
