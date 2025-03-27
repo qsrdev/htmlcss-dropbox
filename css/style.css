@@ -7,29 +7,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 img {
   max-width: 100%;
 }
 
-h1 {
-  font-size: 90px;
-  max-width: 80%;
-  margin: 0 auto;
-  max-width: 1300px;
-  padding: 40px 0 20px;
-}
-
 /* ====================================================== */
 /* HEADER */
 header {
-  display: flex;
-  justify-content: space-between;
-  /* background-color: white; */
-  align-items: center;
-  /* debug */
-  background-color: rgba(173, 216, 230, 255);
+  background-color: white;
+
+  ul {
+    margin: 0 25px;
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    align-items: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .header-container {
@@ -50,24 +51,17 @@ header {
   gap: 10px;
 }
 
-.nav-list {
-  margin: 0 15px;
-  display: flex;
-  gap: 15px;
-  list-style: none;
-  align-items: center;
-}
 /* ====================================================== */
 
 /* ====================================================== */
 /* Jumbo */
 .jumbo {
-  background-color: aquamarine;
+  background-color: rgba(180, 208, 230, 255);
 }
 
 .jumbo-container {
   display: flex;
-  max-width: 80%;
+  width: 80%;
   margin: 0 auto;
   max-width: 1300px;
 }
@@ -75,17 +69,16 @@ header {
 .col30 {
   width: 30%;
   padding: 5px;
-  text-align: center;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .col70 {
   width: 70%;
-  background-color: violet;
+  /* background-color: violet; */
 }
 
 .body-container {
-  max-width: 50%;
+  max-width: 70%;
   margin: 0 auto;
   max-width: 900px;
 }
@@ -93,6 +86,34 @@ header {
 
 /* COMMON */
 /* LAYOUT */
+
+h1 {
+  font-size: 5.625rem;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 60px 0 20px;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: rgba(0, 97, 254, 255);
+  padding: 10px 15px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
 .business-section {
   margin-bottom: 10rem;
 }
@@ -216,8 +237,8 @@ header {
 
 /* ====================================================== */
 /* FOOTER */
-footer {
-  height: 80px;
+.footer {
+  padding: 40px 0 20px;
   background-color: black;
 }
 
@@ -234,7 +255,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 80px;
 }
 
 .footer-col {
@@ -253,6 +273,10 @@ footer {
 /* ====================================================== */
 
 /* Utility */
+
+.my-20 {
+  margin: 20px 0 20px;
+}
 
 .font-grey {
   color: var(--grey);
