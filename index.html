@@ -73,8 +73,15 @@
           <h2 class="my-40">Trova il piano business che fa per te</h2>
           <div>
             <ul class="plan-select">
-              <li><input type="radio" /> Fatturazione mensile</li>
-              <li><input type="radio" /> Fatturazione annuale</li>
+              <li>
+                <input type="radio" name="plan" id="monthly" /> Fatturazione
+                mensile
+              </li>
+              <!-- utilizziamo name per far si che si possa selezionare solo 1 solo input alla volta -->
+              <li>
+                <input type="radio" name="plan" id="annually" /> Fatturazione
+                annuale
+              </li>
             </ul>
           </div>
           <div class="container">
